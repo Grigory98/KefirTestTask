@@ -1,29 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Assets.UiTest.Results;
 using Assets.UiTest.TestSteps;
 
-namespace UiTest.UiTest.TestSteps
+namespace UiTest.UiTest.TestSteps.OtherSteps
 {
-    class GetWoodStep : UiTestStepBase
+    class WaitStep : UiTestStepBase
     {
-        public override string Id => "get_wood_step";
+        public override string Id => "wait_step";
         public override double TimeOut => 300;
-
-        private int amount;
         protected override Dictionary<string, string> GetArgs()
         {
             return new Dictionary<string, string>();
         }
 
+        private int seconds;
+
         protected override IEnumerator OnRun()
         {
-            Cheats.GetWood(amount);
-            return null;
+            yield return Commands.WaitForSecondsCommand(seconds, new ResultData<SimpleCommandResult>());
         }
 
-        public GetWoodStep(int amount)
+        public WaitStep(int seconds)
         {
-            this.amount = amount;
+            this.seconds = seconds;
         }
     }
 }

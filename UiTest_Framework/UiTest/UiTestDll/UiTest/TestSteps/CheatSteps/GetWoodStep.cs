@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Assets.UiTest.TestSteps;
 
-namespace UiTest.UiTest.TestSteps
+namespace UiTest.UiTest.TestSteps.CheatSteps
 {
-    public class GetWoodPlankStep : UiTestStepBase
+    class GetWoodStep : UiTestStepBase
     {
-        public override string Id => "get_wood_plank_step";
+        public override string Id => "get_wood_step";
         public override double TimeOut => 300;
 
         private int amount;
@@ -21,11 +17,11 @@ namespace UiTest.UiTest.TestSteps
 
         protected override IEnumerator OnRun()
         {
-            Cheats.GetWoodPlank(amount);
+            Cheats.GetWood(amount);
             return null;
         }
 
-        public GetWoodPlankStep(int amount)
+        public GetWoodStep(int amount)
         {
             this.amount = amount;
         }

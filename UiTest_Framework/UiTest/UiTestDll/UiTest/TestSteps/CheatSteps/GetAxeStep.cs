@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Assets.UiTest.TestSteps;
 
-namespace UiTest.UiTest.TestSteps
+namespace UiTest.UiTest.TestSteps.CheatSteps
 {
     public class GetAxeStep : UiTestStepBase
     {

@@ -6,7 +6,7 @@ using Assets.UiTest.TestSteps;
 using UiTest.UiTest.Checker;
 using UnityEngine;
 
-namespace UiTest.UiTest.TestSteps
+namespace UiTest.UiTest.TestSteps.WorldSteps
 {
     class CutThreeStep : UiTestStepBase
     {

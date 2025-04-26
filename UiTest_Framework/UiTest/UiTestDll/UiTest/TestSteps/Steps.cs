@@ -1,7 +1,9 @@
-using System.Security.AccessControl;
 using Assets.UiTest.Context;
 using Assets.UiTest.Context.Consts;
-using UiTest.UiTest.TestSteps;
+using UiTest.UiTest.TestSteps.CheatSteps;
+using UiTest.UiTest.TestSteps.InventorySteps;
+using UiTest.UiTest.TestSteps.OtherSteps;
+using UiTest.UiTest.TestSteps.WorldSteps;
 
 namespace Assets.UiTest.TestSteps
 {

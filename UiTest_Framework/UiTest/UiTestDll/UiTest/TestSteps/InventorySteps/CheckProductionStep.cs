@@ -6,7 +6,7 @@ using Assets.UiTest.Results;
 using Assets.UiTest.TestSteps;
 using UiTest.UiTest.Checker;
 
-namespace UiTest.UiTest.TestSteps
+namespace UiTest.UiTest.TestSteps.InventorySteps
 {
     class CheckProductionStep : UiTestStepBase
     {
