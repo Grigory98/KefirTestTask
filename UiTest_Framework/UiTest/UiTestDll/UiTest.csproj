@@ -319,7 +319,7 @@
     <Compile Include="UiTest\TestSteps\InventorySteps\CheckWoodCountAtInventory.cs" />
     <Compile Include="UiTest\TestSteps\InventorySteps\CloseInventoryStep.cs" />
     <Compile Include="UiTest\TestSteps\WorldSteps\CutThreeStep.cs" />
-    <Compile Include="UiTest\TestSteps\ExampleStep.cs" />
+    <Compile Include="UiTest\TestSteps\OtherSteps\ExampleStep.cs" />
     <Compile Include="UiTest\TestSteps\CheatSteps\GetAxeStep.cs" />
     <Compile Include="UiTest\TestSteps\CheatSteps\GetCoinsStep.cs" />
     <Compile Include="UiTest\TestSteps\CheatSteps\GetWoodPlankStep.cs" />

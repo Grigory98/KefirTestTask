@@ -153,10 +153,5 @@ namespace Assets.UiTest.TestSteps
         {
             return new CheckItemAtInventory(objectName, Screens.Inventory.Cell.Backpack, cellNumber, count, isExists);
         }
-
-        public IUiTestStepBase CheckItemAtWorkbenchRowStep(string objectName, int count, bool isExists = true)
-        {
-            return new CheckItemAtInventory(objectName, Screens.Inventory.Cell.WorkbenchRow, 0, count, isExists);
-        }
     }   
 }

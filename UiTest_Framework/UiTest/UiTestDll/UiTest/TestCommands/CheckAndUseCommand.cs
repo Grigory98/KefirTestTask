@@ -5,7 +5,6 @@ using Assets.UiTest.Context.Consts;
 using Assets.UiTest.Results;
 using Assets.UiTest.TestCommands;
 using UiTest.UiTest.Checker;
-using UnityEngine;
 
 namespace UiTest.UiTest.TestCommands
 {
